@@ -4,4 +4,4 @@ function TodoSearch(){
     )
   }
 
-  export { TodoCounter };
+  export { TodoSearch };
