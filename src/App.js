@@ -4,11 +4,17 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <TodoCounter />
+      <TodoSearch />
 
-      <TodoItem />
-      <TodoItem />
-      <TodoItem />
+      <TodoList>
+        <TodoItem />
+        <TodoItem />
+        <TodoItem />
+      </TodoList>
       
+      
+      <CreateTodoButton />
     </div>
   );
 }
