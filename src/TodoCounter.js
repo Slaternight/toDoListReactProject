@@ -4,4 +4,4 @@ function TodoCounter(){
     )
   }
 
-  export { TodoCounter } //Mejor practica es hacer export nombrados y no con default
+  export { TodoCounter }; //Mejor practica es hacer export nombrados y no con default
